@@ -3,9 +3,9 @@
 body {
     margin: 0;
     padding: 0;
-    color: #f8b365;
-    font-family: 'Space Grotesk', sans-serif;;
-    background-color: #f8b365;
+    color: White;
+    font-family: 'Space Mono', monospace;
+    background-color: white;
 }
 
 /* HEADER */
@@ -41,10 +41,10 @@ h2 {
 .social-media a {
     border-radius: 50rem;
     text-decoration: none;
-    color: #f8b365;
+    color: white;
     font-size: 24px;
     padding: 1rem 4rem;
-    border: 1px solid #f8b365;
+    border: 1px solid white;
     min-width: 4rem;
     display: flex;
     justify-content: center;
@@ -54,7 +54,7 @@ h2 {
 
 a:hover {
     color: #2E1C2B;
-    background-color: #f8b365;
+    background-color: white;
 }
 
 @keyframes backgroundTransition {
@@ -93,7 +93,7 @@ a:hover {
 .checkbox .trace {
     width: 50px;
     height: 2px;
-    background-color: #f8b365;
+    background-color: white;
     position: absolute;
     border-radius: 4px;
     transition: 0.5s ease-in-out;
@@ -128,9 +128,9 @@ a:hover {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    box-shadow: 0px 0px 0px 0px #f8b365;
+    box-shadow: 0px 0px 0px 0px white;
     z-index: -1;
-    transition: 400ms ease-in-out 0s;
+    transition: 500ms ease-in-out 0s;
 }
 
 .menu-items {
@@ -183,11 +183,11 @@ a:hover {
 }
 
 #toggle:checked + .checkbox {
-    background-color: #f8b365;
+    background-color: white;
 }
 
 #toggle:checked ~ .menu{
-    box-shadow: 0px 0px 0px 100vmax #f8b365;
+    box-shadow: 0px 0px 0px 100vmax white;
     z-index: 1;
 }
 
@@ -234,7 +234,7 @@ a:hover {
 
 .card-text {
     width: 40%;
-    font-family: sans-serif;
+    font-family: 'Space Mono', monospace;
     letter-spacing: 1px;
     color: rgb(109, 109, 109);
 }
